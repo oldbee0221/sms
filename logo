@@ -1,0 +1,166 @@
+hromium: [ERROR:page_load_metrics_update_dispatcher.cc(169)] Invalid first_paint 1.322 s for first_image_paint 1.28 s
+V/FA: Session started, time: 94212291
+D/FA: Logging event (FE): session_start(_s), Bundle[{firebase_event_origin(_o)=auto, firebase_screen_class(_sc)=HomeActivity, firebase_screen_id(_si)=-3290785206510607014}]
+V/FA: Connecting to remote service
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 1
+E/chromium: [ERROR:page_load_metrics_update_dispatcher.cc(169)] Invalid first_paint 1.322 s for first_image_paint 1.28 s
+V/FA: Inactivity, disconnecting from the service
+I/.com.onlyonesm: Compiler allocated 4218KB to compile void android.view.ViewRootImpl.performTraversals()
+E/Pumpkin: data key: body, value: {"Send":"Start","idx":"255978","send_type":"1"}
+E/Pumpkin: data key: title, value: {"MMS Push"}
+E/Pumpkin: FCM MESSAGE BODY: Send: Start, send_type: 1, idx: 255978
+I/온리원플랫폼: send: Start
+    sendType: 1
+    idx: 255978
+E/Pumpkin: Service, startWork
+E/Pumpkin: Service, onStartCommand, idx: 255978
+E/Pumpkin: [UndeadService] prepareSending!!! mmsc:http://omms.nate.com:9082/oma_mms proxy:smart.nate.com port:9093
+W/.com.onlyonesm: Accessing hidden method Lcom/google/android/mms/MmsException;-><init>(Ljava/lang/String;)V (greylist, linking, allowed)
+I/TelephonyManager: getCustomerPath : omc customer file can read
+I/TelephonyManager: getCustomerPath : omc customer file can read
+E/Pumpkin: [UndeadService] start working thread
+W/.com.onlyonesm: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, reflection, allowed)
+    Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+D/OkHttp: --> POST http://www.obmms.net/mms/get_task.php http/1.1
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 43
+D/OkHttp: mem_id=oldbee0221&id=01088506444&idx=255978
+    --> END POST (43-byte body)
+D/OkHttp: <-- 200 OK http://www.obmms.net/mms/get_task.php (245ms)
+    Date: Thu, 07 Jan 2021 06:08:07 GMT
+    Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.2.9
+    X-Powered-By: PHP/5.2.9
+    Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    Last-Modified: Thu, 07 Jan 2021 06:08:07 GMT
+    Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma: no-cache
+    Set-Cookie: PHPSESSID=20d18ffba8bbe282d9bc1649d88ec0d4; path=/
+    Content-Length: 1578
+    Keep-Alive: timeout=25, max=10000
+    Connection: Keep-Alive
+    Content-Type: text/html; charset=utf-8
+D/OkHttp: {"txt":"\uc628\ub9ac\uc6d0 \ubb38\uc790\uc571 \ud14c\uc2a4\ud2b8 \uc911\uc785\ub2c8\ub2e4. \uc790\uc8fc \ubc1c\uc1a1 \ub418\ub354\ub77c\ub3c4 \uc591\ud574\ubc14\ub78d\ub2c8\ub2e4. ","reqid":"16099996860","delay":"5","close":"24","idx":"255978","type":"1","title":"\uc628\ub9ac\uc6d0\ubb38\uc790\uc571 \ud14c\uc2a4\ud2b8\ud569\ub2c8\ub2e4.","jpg":"","jpg1":"","jpg2":"","pnum":[{"bnc":"","num":"01020001244","rep":""},{"bnc":"","num":"01022385630","rep":""},{"bnc":"","num":"01023720920","rep":""},{"bnc":"","num":"01026548651","rep":""},{"bnc":"","num":"01026590220","rep":""},{"bnc":"","num":"01031911036","rep":""},{"bnc":"","num":"01032063611","rep":""},{"bnc":"","num":"01032304818","rep":""},{"bnc":"","num":"01033569943","rep":""},{"bnc":"","num":"01037041943","rep":""},{"bnc":"","num":"01038062653","rep":""},{"bnc":"","num":"01039093925","rep":""},{"bnc":"","num":"01040458224","rep":""},{"bnc":"","num":"01040853872","rep":""},{"bnc":"","num":"01041637088","rep":""},{"bnc":"","num":"01042686686","rep":""},{"bnc":"","num":"01045867740","rep":""},{"bnc":"","num":"01047077178","rep":""},{"bnc":"","num":"01047419958","rep":""},{"bnc":"","num":"01049200791","rep":""},{"bnc":"","num":"01052402346","rep":""},{"bnc":"","num":"01053530798","rep":""},{"bnc":"","num":"01053788951","rep":""},{"bnc":"","num":"01055646400","rep":""},{"bnc":"","num":"01057461969","rep":""},{"bnc":"","num":"01057870371","rep":""},{"bnc":"","num":"01063422027","rep":""},{"bnc":"","num":"01063595336","rep":""},{"bnc":"","num":"01064727269","rep":""},{"bnc":"","num":"01067510542","rep":""}]}
+    <-- END HTTP (1578-byte body)
+E/Pumpkin: [UndeadService] receive response
+E/Pumpkin: [UndeadService] handleTask
+D/OkHttp: --> POST http://www.obmms.net/mms/send_complete_num.php http/1.1
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 103
+    error=01032304818%2C%2001033569943%2C%2001037041943%2C%2001038062653%2C%2001039093925&reqid=16099962840
+    --> END POST (103-byte body)
+D/OkHttp: <-- 200 OK http://www.obmms.net/mms/send_complete_num.php (320ms)
+    Date: Thu, 07 Jan 2021 06:08:08 GMT
+    Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8e-fips-rhel5 DAV/2 PHP/5.2.9
+    X-Powered-By: PHP/5.2.9
+    Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    Last-Modified: Thu, 07 Jan 2021 06:08:08 GMT
+D/OkHttp: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma: no-cache
+    Content-Length: 14
+    Keep-Alive: timeout=25, max=9999
+    Connection: Keep-Alive
+    Content-Type: text/html; charset=utf-8
+D/OkHttp: {"result":"0"}
+    <-- END HTTP (14-byte body)
+W/.com.onlyonesm: Accessing hidden method Landroid/database/sqlite/SqliteWrapper;->query(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor; (greylist, linking, allowed)
+    Accessing hidden method Landroid/database/sqlite/SqliteWrapper;->insert(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri; (greylist, linking, allowed)
+W/.com.onlyonesm: Accessing hidden method Landroid/database/sqlite/SqliteWrapper;->delete(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I (greylist, linking, allowed)
+    Accessing hidden method Landroid/database/sqlite/SqliteWrapper;->update(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I (greylist, linking, allowed)
+W/.com.onlyonesm: Accessing hidden method Lcom/google/android/mms/InvalidHeaderValueException;-><init>(Ljava/lang/String;)V (greylist, linking, allowed)
+W/.com.onlyonesm: Accessing hidden method Lcom/google/android/mms/ContentType;->isImageType(Ljava/lang/String;)Z (greylist, linking, allowed)
+    Accessing hidden method Lcom/google/android/mms/ContentType;->isVideoType(Ljava/lang/String;)Z (greylist, linking, allowed)
+    Accessing hidden method Lcom/google/android/mms/ContentType;->isAudioType(Ljava/lang/String;)Z (greylist, linking, allowed)
+W/.com.onlyonesm: Accessing hidden method Lcom/google/android/mms/MmsException;-><init>(Ljava/lang/Throwable;)V (greylist, linking, allowed)
+E/Pumpkin: [UndeadService] sendMessage() 0
+E/Pumpkin: [UndeadService] sendMessage() 1
+E/Pumpkin: [UndeadService] sendMessage() 2
+E/Pumpkin: [UndeadService] sendMessage() 3
+E/Pumpkin: [UndeadService] sendMessage() 4
+E/Pumpkin: [UndeadService] sendMessage() 5
+E/Pumpkin: [UndeadService] sendMessage() 6
+E/Pumpkin: [UndeadService] sendMessage() 7
+E/AndroidRuntime: FATAL EXCEPTION: Thread-22
+    Process: mms5.onepagebook.com.onlyonesms, PID: 30708
+    java.lang.NullPointerException: uriString
+        at android.net.Uri$StringUri.<init>(Uri.java:496)
+        at android.net.Uri$StringUri.<init>(Uri.java:486)
+        at android.net.Uri.parse(Uri.java:458)
+        at com.klinker.android.send_message.MmsSentReceiver.updateInInternalDatabase(MmsSentReceiver.java:42)
+        at com.klinker.android.send_message.StatusUpdatedReceiver$1.run(StatusUpdatedReceiver.java:22)
+        at java.lang.Thread.run(Thread.java:919)
+E/chromium: [ERROR:page_load_metrics_update_dispatcher.cc(169)] Invalid first_paint 1.322 s for first_image_paint 1.28 s
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/Pumpkin: [UndeadService] sendMessage() 8
+V/FA: Recording user engagement, ms: 32618
+V/FA: Connecting to remote service
+V/FA: Activity paused, time: 94234832
+D/FA: Logging event (FE): user_engagement(_e), Bundle[{firebase_event_origin(_o)=auto, engagement_time_msec(_et)=32618, firebase_screen_class(_sc)=HomeActivity, firebase_screen_id(_si)=-3290785206510607014}]
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@628057e
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@b324618
+I/ViewRootImpl@358a559[HomeActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@40953b0[HomeActivity]
+    getNavigationBarColor() -855310
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@6c156d7
+V/FA: Connection attempt already in progress
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 2
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@9740aad
+I/Process: Sending signal. PID: 30708 SIG: 9
+Connected to process 14492 on device 'samsung-sm_g975n-R39M30P4M2H'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+D/ActivityThread: setConscryptValidator
+D/ActivityThread: setConscryptValidator - put
+I/.com.onlyonesm: The ClassLoaderContext is a special shared library.
+V/FA: Registered activity lifecycle callback
+D/FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+D/FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+I/FirebaseInitProvider: FirebaseApp initialization successful
+I/CrashlyticsCore: Initializing Crashlytics 2.6.4.27
+V/FA: Collection enabled
+    App package, google app id: mms5.onepagebook.com.onlyonesms, 1:665610795264:android:5815dc0511b80cb0
+I/FA: App measurement is starting up, version: 12780
+I/FA: To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+I/FA: To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app mms5.onepagebook.com.onlyonesms
+D/FA: Debug-level message logging enabled
+V/FA: Connecting to remote service
+V/FA: Connection attempt already in progress
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 2
+E/AndroidRuntime: FATAL EXCEPTION: Thread-18
+    Process: mms5.onepagebook.com.onlyonesms, PID: 14492
+    java.lang.NullPointerException: uriString
+        at android.net.Uri$StringUri.<init>(Uri.java:496)
+        at android.net.Uri$StringUri.<init>(Uri.java:486)
+        at android.net.Uri.parse(Uri.java:458)
+        at com.klinker.android.send_message.MmsSentReceiver.updateInInternalDatabase(MmsSentReceiver.java:42)
+        at com.klinker.android.send_message.StatusUpdatedReceiver$1.run(StatusUpdatedReceiver.java:22)
+        at java.lang.Thread.run(Thread.java:919)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@b78df1e
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@ba3a5cc
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@ecfcf2a
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+E/CrashlyticsCore: Error occurred sending report com.crashlytics.android.core.SessionReport@64b52b8
+E/libc: Access denied finding property "ro.serialno"
+W/.com.onlyonesm: DexFile /data/data/mms5.onepagebook.com.onlyonesms/code_cache/perfa.jar is in boot class path but is not in a known location
+V/StudioTransport: Agent command stream started.
+V/StudioTransport: Transport agent connected to daemon.
+V/StudioTransport: Handling agent command 1200 for pid: 14492.
+    JNIEnv not attached
+V/StudioTransport: Handling agent command 1200 for pid: 14492.
